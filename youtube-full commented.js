@@ -1,5 +1,5 @@
 javascript: (function(){
-    // Select the note that will be observed for mutations
+    // Select the node that will be observed for mutations
     var targetNode = document.getElementById("movie_player");
 
     // Options for the observer (which mutations to observe)
