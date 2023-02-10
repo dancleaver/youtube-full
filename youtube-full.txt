@@ -1,10 +1,8 @@
 javascript:(function(){
-var myList = document.getElementsByClassName("ytp-gradient-top");
-myList[0].remove();
-var myList = document.getElementsByClassName("ytp-chrome-top");
-myList[0].remove();
-var myList = document.getElementsByClassName("ytp-gradient-bottom");
-myList[0].remove();
-var myList = document.getElementsByClassName("ytp-chrome-bottom");
-myList[0].remove();
+  var classNames = new Array("ytp-gradient-top", "ytp-chrome-top", "ytp-gradient-bottom", "ytp-chrome-bottom");
+
+  for(var i = 0; i < classNames.length; i++){
+    var myList = document.getElementsByClassName(classNames[i]);
+    myList[0].remove();
+  }
 })();
