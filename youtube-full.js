@@ -9,7 +9,7 @@ javascript: (function(){
         for(var i = 0; i < targetChildren.length; i++){
             if(!elementsToKeep.includes(targetChildren[i].className)){
                 targetChildren[i].remove();
-            }
+            }git
         }
     };
 
