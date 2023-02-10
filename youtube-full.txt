@@ -1,5 +1,7 @@
 javascript:(function(){
-  var classNames = new Array("ytp-gradient-top", "ytp-chrome-top", "ytp-gradient-bottom", "ytp-chrome-bottom");
+  var classNames = new Array("ytp-gradient-top", "ytp-chrome-top",
+	"ytp-gradient-bottom", "ytp-chrome-bottom",
+	"annotation annotation-type-custom iv-branding");
 
   for(var i = 0; i < classNames.length; i++){
     var myList = document.getElementsByClassName(classNames[i]);
