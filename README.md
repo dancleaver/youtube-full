@@ -8,7 +8,7 @@ When run, it removes all the UI elements except the thumbnail and the video itse
 
 - Create a new bookmark in your browser.
 
-- Paste the contents of (script.js)[./script.js] into the URL field.
+- Paste the contents of [script.js](./script.js) into the URL field.
 
 - Open a Youtube video.
 
